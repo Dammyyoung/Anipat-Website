@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    height: 100px;
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav .list{
+    display: flex;
+}
+nav .list a{
+    margin: 0px 20px;
+    font-size: 1.1rem;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    height: 550px;
+    width: 100%;
+    background-image: url(../images/banner.webp);
+    display: flex;
+    justify-content: space-between;
+}
+.article-1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article-1 .we-care{
+    font-size: 4rem;
+    color: white;
+    /* font-weight: bold; */
+}
+.article-1 .your-pets{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.article-1 .lorem1{
+    line-height: 29px;
+    color: rgb(243, 234, 234);
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+.article-1 a{
+    margin: 25px 0px;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    display: inline-block;
+    color: red;
+    background-color: white;   
+}
+.article-1 a:hover{
+    background-color: red;
+    color: white;
+}
+.article-2{
+    height: 400px;
+    width: 50%;
+}
+.article-2 img{
+    width: 90%;
+    margin: 100px 70px 0px 0px;
+}
+section{
+    height: 200px;
+    width: 100%;
+    margin-top: 140px;
+}
+section h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size:4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+section p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 40px;
+    color: rgb(168, 164, 164);
+}
+/* section one */
+.section-one{
+    height: 500px;
+    width: 75%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between; 
+}
+.section-one .pet{
+    width: 32%;
+    height: 500px;
+    border: 1px solid brown;
+    padding: 40px;
+}
+.section-one .pet1{
+    height: 140px;
+    width: 160px;
+    background-image: url(../images/service_icon_bg.webp);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto 0px;
+}
+.pet1 img{
+   align-items: center; 
+}
+.pet:hover{
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.section-one .pet h1{
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+.section-one .pet .pet-p{
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* section two- about pet */
+.section-two{
+    height: 600px;
+    width: 75%;
+    /* background-color: brown; */
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between; 
+}
+.section-two .about-pet, .about-pets{
+    height: 600px;
+    width: 48%;
+    /* background-color: burlywood; */
+}
+.section-two .about-pet img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-two .about-pets .text-pet, .text-need{
+    margin: 70px auto 0px;
+    font-size: 4rem;
+    text-align: left;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+.section-two .about-pets .text-care, .text-help{
+    font-size: 3.5rem;
+    text-align: left;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.section-two .about-pets .about-p, .adopt-p{
+    color: rgb(168, 164, 164);
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    margin: 60px auto;
+    text-align: left;
+}
+.section-two .about-pets .about-button, .adpot-button{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    border: 1px solid red;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    padding: 20px 60px;
+    background-color: red;
+}
+
+/* section three */
+.section-three{
+    height: 750px;
+    width: 75%;
+    /* background-color: brown; */
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between; 
+}
+.section-three .adopt{
+    height: 750px;
+    width: 48%;
+    /* background-color: bisque; */
+}
+.section-three .adopt .box{
+    display: flex;
+    align-items: center;
+}
+.section-three .adopt .pets-available{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 0px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px 0px;
+}
+.section-three .adopt .box .boxs .pets-available{
+    margin: 20px 30px;
+}
+.section-three .adopt .box .boxs .pets-available .imgs{
+    display: flex;
+    justify-content: center;
+}
+.section-three .adopt .box .boxs .pets-available .text .text-2{
+    line-height: 0px;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+/* section four */
+.section-four{
+    height: 400px;
+    width: 60%;
+    /* background-color: brown; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 200px auto;
+}
+.section-four .testimony{
+    display: flex;
+    justify-content: space-between; 
+}
+.section-four .testimony .web-design{
+    height: 400px;
+    width: 30%;
+    /* background-color: beige;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-four .testimony .web-design img{
+    /* margin: 0px 100px; */
+    width: 60%;
+}
+.section-four .testimony .text-area{
+    height: 400px;
+    width: 70%;
+    /* background-color: beige; */
+}
+.section-four .testimony .text-area .names{
+    margin: 50px 0px 0px;
+    text-align: left;
+    font-size: 1.9rem;
+    font-family: "Poppins", sans-serif;
+}
+.section-four .testimony .text-area .head-web{
+    text-align: left;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+}
+.section-four .testimony .text-area .text-lorem{
+    text-align: left;
+    color: rgb(69, 65, 65);
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Start Section Five */
+.section-five{
+    height: 750px;
+    width: 75%;
+    /* background-color: brown; */
+    margin: 200px auto;
+}
+.section-five .text-five, .text-team{
+    font-family: "Poppins", sans-serif;
+}
+.section-five .image-people{
+    margin: 90px 0px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.section-five .img{
+    padding: 0px 100px;
+}
+
+
+/* section six */
+.section-six{
+    height: 750px;
+    width: auto;
+    background-image: url(../images/contact_bg.webp);
+    background-size: 100% 100%;
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-six .text-why, .text-technology{
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.section-six .text-technology{
+    margin: 20px 0px;
+    line-height: 50px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+.section-six .contacts{
+    width: 55%;
+    margin: 20px auto;
+    height: 100px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-six .six-button{
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    color: red;
+    font-size: 1.5rem;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+.section-six .text-or, .num{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+} 
+
+/* footer */
+footer{
+    width: 75%;
+    height: 700px;
+    /* background-color: brown; */
+    margin: 0px auto;
+    border-bottom: 1px solid black;
+}
+footer .info{
+    display: flex;
+    justify-content: space-between;
+}
+footer .info .service{
+    height: 500px;
+    width: 23%;
+    /* background-color: beige; */
+}
+footer .info .service h1, img{
+    padding: 30px 0px;
+    font-size: 2.1rem;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+}
+footer .info .service p, a{
+    line-height: 45px;
+    /* padding: 30px 0px; */
+    font-size: 1.3rem;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+    color: rgb(126, 123, 123);
+}
+footer .info .service a:hover{
+    color: brown;
+}
+footer .info .service .icons{
+    margin: 25px 0px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
